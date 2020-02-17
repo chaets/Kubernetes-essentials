@@ -13,6 +13,7 @@
     9  sudo kubeadm upgrade plan
 ### Components that must be upgraded manually after you have upgraded the control plane with 'kubeadm upgrade apply'
 ![image](https://github.com/chaets/Kubernetes-essentials/blob/master/Kubernetes-cluster-version-update/adm-components.JPG)
+
     10  sudo kubeadm upgrade apply v1.16.6
 ### unholding the kubelet
     11  sudo apt-mark unhold kubelet
